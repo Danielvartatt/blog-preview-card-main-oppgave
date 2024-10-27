@@ -1,0 +1,61 @@
+@import url("https://fonts.googleapis.com/css2?family=El+Messiri:wght@400..700&family=Figtree:ital,wght@0,300..900;1,300..900&display=swap");
+
+html {
+  background-color: hsl(47, 88%, 63%);
+  font-family: Figtree;
+}
+main {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.blog {
+  border-radius: 10px;
+  border: 20px solid white;
+  background-color: rgb(255, 255, 255);
+  width: 300px;
+  height: 550px;
+  display: flex;
+  flex-direction: column;
+  box-shadow: 20px 20px;
+}
+.date {
+  color: hsl(0, 0%, 42%);
+}
+.head {
+  display: flex;
+  justify-content: center;
+  background-color: hsl(47, 88%, 63%);
+  width: 100px;
+  height: 20px;
+  padding: 10px -10px 10px 10px;
+  border: 5px solid none;
+  margin: 0;
+  font-size: bolder;
+}
+.image {
+  border-radius: 5%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-wrap: wrap;
+  padding: 5px;
+}
+.heading {
+  font-weight: bold;
+  cursor: pointer;
+}
+
+.article {
+  color: hsl(0, 0%, 42%);
+}
+
+.account {
+  display: flex;
+  align-items: start;
+  justify-content: start;
+  font-size: large;
+  font-weight: bold;
+  float: left;
+  align-items: center;
+}
